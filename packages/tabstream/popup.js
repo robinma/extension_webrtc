@@ -7,13 +7,12 @@ const getPageStream = async () => {
   const id = await chrome.tabCapture.getMediaStreamId();
   console.log('id', id);
   let stream = await navigator.mediaDevices.getUserMedia({
-    // video: {
-    //   mandatory: {
-    //     chromeMediaSource: 'tab',
-    //     chromeMediaSourceId: id,
-    //   },
-    // },
-    video: true,
+    video: {
+      mandatory: {
+        chromeMediaSource: 'tab',
+        chromeMediaSourceId: id,
+      },
+    },
     audio: false,
   });
   // const [videoTrack] = stream.getVideoTracks();
