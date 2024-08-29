@@ -7,7 +7,6 @@ const startChrome = async () => {
   const browser = await puppeteer.launch({
     headless: false,
     args: [
-      '--bwsi=0',
       '--no-sandbox',
       '--disable-setuid-sandbox',
       `--disable-extensions-except=${extensionPath}`,
