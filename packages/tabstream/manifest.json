@@ -20,10 +20,6 @@
     "http://*/*"
   ],
   "optional_host_permissions":[
-    "https://www.developer.chrome.com/*",
-    "https://scrapfly.io/*",
-    "https://www.youtube.com/*",
-    "https://github.com/*",
     "https://*/*",
     "http://*/*"
   ]
