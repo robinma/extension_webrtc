@@ -27,6 +27,7 @@ const getPageStream = async () => {
   // const [videoTrack] = stream.getVideoTracks();
   streamObj = stream;
 }
+<<<<<<< HEAD
 
 const startStream = async () => {
   try {
@@ -43,10 +44,29 @@ const startStream = async () => {
 
 
 
+=======
+>>>>>>> 3e399be1d3a8e85674996261649309ae6e29d1d1
 
 
 chrome.tabs.onActivated.addListener(async (tab) => {
   console.log('chrome tab.onClicked', tab)
+<<<<<<< HEAD
   startCapture();
 
+=======
+
+  await getPageStream();
+  // chrome.action.setBadgeText({
+  //   text: "ON",
+  // });
+  // chrome.action.setBadgeBackgroundColor({
+  //   color: "#ff0000",
+  // });
+  // chrome.tabs.executeScript({
+  //   file: "content.js",
+  // });
+  // chrome.tabs.insertCSS({
+  //   file: "content.css",
+  // });
+>>>>>>> 3e399be1d3a8e85674996261649309ae6e29d1d1
 });

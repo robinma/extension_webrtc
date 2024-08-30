@@ -1,5 +1,6 @@
 {
   "name": "Hello Extensions",
+  "key":"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtPfbLtuDaAcIHG3KMv8VtNqkjcGsVZFV+azPUQwa12HW63fxSDbcaemozK63j5OExbzIOjVr8/GXT3RQqSqxVVAzRm+1h0k9NV6ehC4MDyw7l/4FrioVeco2tN9NMrlMaGh2L7lGIPwMeT9fTpQjN990TlRXRU1Nl+LSAssrWw95Knd/c2k9QPqnZiU0xRNZX2cV9ddN/VHvBmf8ygqhJmu4ZI6Nxhh0U59wUcRUoP+AavkW39Sxj4BbSKx9820M8/ac+IeP62sqME6aG1O4BWxjUJZ6qd+ZUhne4pY5RYYqV8xW6Iz0EfB8xpJrh0jNxBRdkJIKnbaHlI8GkpyPPwIDAQAB",
   "description": "Base Level Extension",
   "version": "1.0",
   "manifest_version": 3,
@@ -15,9 +16,7 @@
     "https://www.developer.chrome.com/*",
     "https://scrapfly.io/*",
     "https://www.youtube.com/*",
-    "https://github.com/*",
-    "https://*/*",
-    "http://*/*"
+    "https://github.com/*"
   ],
   "optional_host_permissions":[
     "https://*/*",
